@@ -11,9 +11,7 @@ public class Relatorio {
 
     public Relatorio(int id, Usuario usuario, Date[] periodo, List<Investimento> investimentos) {
         this.id = id;
-        this.usuario = usuario;
         this.periodo = periodo;
-        this.investimentos = investimentos;
     }
 
     public double calcularResumo() {
