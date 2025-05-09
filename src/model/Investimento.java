@@ -4,7 +4,9 @@ import java.util.Date;
 
 public class Investimento {
     private int id;
+    // Chave estrangeira para ContaInvestimento (muitos investimentos podem pertencer a uma conta)
     private ContaInvestimento conta;
+    // Chave estrangeira para Criptoativo (um criptoativo pode estar presente em vários investimentos)
     private Criptoativo criptoativo;
     private double quantidade;
     private Date dataCompra;
