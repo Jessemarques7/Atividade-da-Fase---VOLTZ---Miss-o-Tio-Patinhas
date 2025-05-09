@@ -23,6 +23,8 @@ public class Relatorio {
     }
 
     public void gerarPDF() {
-        System.out.println("Relatório gerado para o usuário: " + usuario.getNome());
-    }
+        System.out.println("=== Relatório ID: " + id + " ===");
+        System.out.println("Usuário: " + usuario.getNome());
+        System.out.println("Período: " + periodo[0] + " até " + periodo[1]);
+    }    
 }
